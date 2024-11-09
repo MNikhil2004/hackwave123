@@ -394,7 +394,7 @@ function App() {
           }
         />
         <Route
-          path="/aboutus"
+          path="/analytics"
           element={
             <>
               <Header />
@@ -408,7 +408,7 @@ function App() {
           element={
             <>
               <Header />
-              <Contact />
+              <AboutUs />
               <Footer />
             </>
           }
@@ -425,7 +425,7 @@ function App() {
           path="/supplier-list"
           element={<SupplierDocuments />}
         />
-        <Route
+        <Route 
           path="/disease-prediction"
           element={<DiseasePrediction />}
         />

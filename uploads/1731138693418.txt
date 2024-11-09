@@ -1,0 +1,19 @@
+
+
+
+
+
+
+db.questions.insertMany([
+  { companyId: "6", question: "Finding The Numbers", link: "https://www.geeksforgeeks.org/problems/finding-the-numbers0215/1?page=1&company=Qualcomm&sortBy=latest" },
+  { companyId: "6", question: "Change All Even Bits", link: "https://www.geeksforgeeks.org/problems/change-all-even-bits-in-a-number-to-03253/1?page=1&company=Qualcomm&sortBy=latest" },
+  { companyId: "6", question: "swap-two-nibbles-in-a-byte", link: "https://www.geeksforgeeks.org/problems/swap-two-nibbles-in-a-byte0446/1?page=1&company=Qualcomm&sortBy=latest" },
+  { companyId: "6", question: "find-prime-numbers-in-a-range", link: "https://www.geeksforgeeks.org/problems/find-prime-numbers-in-a-range4718/1?page=1&company=Qualcomm&sortBy=latest" },
+  { companyId: "6", question: "longest-palindrome-in-a-string", link: "https://www.geeksforgeeks.org/problems/longest-palindrome-in-a-string1956/1?page=1&company=Qualcomm&sortBy=latest" },
+  { companyId: "6", question: "flattening-a-linked-list", link: "https://www.geeksforgeeks.org/problems/flattening-a-linked-list--170645/1?page=1&company=Qualcomm&sortBy=latest" }
+])
+
+chubbb : A
+Qualcom:De
+Goldma:n IBm
+Oracle:intel

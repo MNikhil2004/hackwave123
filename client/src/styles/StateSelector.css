@@ -1,0 +1,35 @@
+.state-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .state-label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .state-select {
+    width: 250px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    color: #333;
+    transition: all 0.3s ease;
+    outline: none;
+  }
+  
+  .state-select:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  .state-select option {
+    font-size: 1rem;
+    padding: 10px;
+  }

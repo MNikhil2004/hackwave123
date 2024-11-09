@@ -1,6 +1,6 @@
-// src/pages/Dashboard/StateSelector.js
 import React from 'react';
-
+  // Importing the CSS file for styling
+  import '../../styles/StateSelector.css'
 const StateSelector = ({ onSelectState }) => {
     const states = [
         'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar', 'Chhattisgarh',
@@ -11,14 +11,17 @@ const StateSelector = ({ onSelectState }) => {
     ];
 
     return (
-        <select onChange={(e) => onSelectState(e.target.value)}>
-            <option value="">Select a State</option>
-            {states.map((state) => (
-                <option key={state} value={state}>
-                    {state}
-                </option>
-            ))}
-        </select>
+        <div className="state-selector-container">
+            <label htmlFor="state" className="state-label">Select a State</label>
+            <select id="state" onChange={(e) => onSelectState(e.target.value)} className="state-select">
+                <option value="">Select a State</option>
+                {states.map((state) => (
+                    <option key={state} value={state}>
+                        {state}
+                    </option>
+                ))}
+            </select>
+        </div>
     );
 };
 

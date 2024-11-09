@@ -88,7 +88,7 @@ const Header = () => {
               </li>
             )}
             <li className="nav-item mx-3">
-              <Link className="nav-link" to="/aboutus">
+              <Link className="nav-link" to="/analytics">
                 Analytics
               </Link>
             </li>
@@ -99,9 +99,16 @@ const Header = () => {
                 </Link>
               </li>
             )}
+            {user?.role === "donar" && (
+              <li className="nav-item mx-3">
+                <Link className="nav-link" to="/supplier-list">
+                  Docs
+                </Link>
+              </li>
+            )}
             <li className="nav-item mx-3">
               <Link className="nav-link" to="/contactus">
-                Contact Us
+                AboutUs 
               </Link>
             </li>
             {/* <li className="nav-item mx-3">
